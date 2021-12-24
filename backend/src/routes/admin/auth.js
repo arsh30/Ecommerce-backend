@@ -1,8 +1,7 @@
 const express = require("express");
 const {
   signup,
-  signin,
-  requireSignin,
+  signin
 } = require("../../controller/admin/auth");
 const {
   validateSignupRequest,
